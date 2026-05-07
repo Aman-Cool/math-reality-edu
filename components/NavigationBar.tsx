@@ -13,6 +13,7 @@ const NAV_ITEMS = [
   { id: 'quantum', label: 'Quantum' },
   { id: 'chaos', label: 'Chaos' },
   { id: 'lifespan', label: 'Lifespan' },
+  { id: 'state-model', label: 'State Theory' },
   { id: 'limits', label: 'Limits' },
 ]
 
