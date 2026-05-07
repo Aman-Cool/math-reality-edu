@@ -10,6 +10,7 @@ import { DeterminismSection } from '@/components/sections/DeterminismSection'
 import { QuantumSection } from '@/components/sections/QuantumSection'
 import { ChaosSection } from '@/components/sections/ChaosSection'
 import { LifespanSection } from '@/components/sections/LifespanSection'
+import { TheoreticalLifespanSection } from '@/components/sections/TheoreticalLifespanSection'
 import { FinalSection } from '@/components/sections/FinalSection'
 
 export default function Home() {
@@ -45,6 +46,9 @@ export default function Home() {
 
       <div className="section-divider" />
       <LifespanSection />
+
+      <div className="section-divider" />
+      <TheoreticalLifespanSection />
 
       <div className="section-divider" />
       <FinalSection />
